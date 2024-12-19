@@ -69,6 +69,7 @@ division=numOne*numTwo
 remainder=numOne%numTwo
 exp=numOne**numTwo
 floorDivision=numOne//numTwo
+<<<<<<< HEAD
 
 #圆的半径为 30 米。
 #计算圆的面积并将值赋给名为 area_of_circle 的变量
@@ -85,3 +86,5 @@ print(help('keywords'))
 
 
 
+=======
+>>>>>>> f641ed95a6fc7ff7a517047d098f07759a358d6e
