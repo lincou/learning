@@ -49,6 +49,39 @@
 # print('The area of the circle is:', pi*radius**2)
 # print('The circumference of the circle is:', 2*pi*radius)
 
-#计算y=2x-2的斜率、x截距和y截距
-y=2*x-2
+# #计算y=2x-2的斜率、x截距和y截距
+# print('y=2x-2')
+# print('The slope of the line is:', 2)
+# print('The y-intercept is:', -2)
+# print('The x-intercept is:', 0)
 
+# #斜率是 (m = y2-y1/x2-x1)。找到点 (2, 2) 和点 (6,10) 之间的斜率和欧几里得距离
+# point1=(2,2)
+# point2=(6,10)
+# x1,y1=point1
+# x2,y2=point2
+# m=(y2-y1)/(x2-x1)
+# print('The slope of the line is:', m)
+# distance=((x2-x1)**2+(y2-y1)**2)**0.5
+# print('The distance between the two points is:', distance)
+
+# #比较上面两者的斜率
+# slope1=2
+# slope2=m
+# print(slope1)
+# print(slope2)
+# print(slope1 > slope2)
+
+# #计算 y 的值（y = x^2 + 6x + 9）。尝试使用不同的 x 值，并找出 y 何时为 0
+# while True:
+#     x=float(input('Please input the value of x:'))
+#     y=x**2+6*x+9
+#     print('The value of y is:', y)
+#     if y==0:
+#         print('y=0 at x=', x)
+#         break
+
+#求出 'python' 和 'dragon' 的长度，并进行一个假的比较语句。
+print('The length of "python" is:', len('python'))
+print('The length of "dragon" is:', len('dragon'))
+print( len('python') > len('dragon'))
