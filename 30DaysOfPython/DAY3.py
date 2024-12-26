@@ -81,7 +81,23 @@
 #         print('y=0 at x=', x)
 #         break
 
-#求出 'python' 和 'dragon' 的长度，并进行一个假的比较语句。
-print('The length of "python" is:', len('python'))
-print('The length of "dragon" is:', len('dragon'))
-print( len('python') > len('dragon'))
+# #求出 'python' 和 'dragon' 的长度，并进行一个假的比较语句。
+# print('The length of "python" is:', len('python'))
+# print('The length of "dragon" is:', len('dragon'))
+# print( len('python') > len('dragon'))
+
+# #使用 and 运算符检查 'python' 和 'dragon' 中是否都有 'on'
+# print('on' in ('python' and 'dragon')) # True
+# print('on' in 'python' and 'dragon')
+
+# #I hope this course is not full of jargon。使用 in 运算符检查句子中是否有 jargon。
+
+# if 'jargon' in 'I hope this course is not full of jargon':
+#     print('Yes, there is jargon in the sentence.')
+
+#找到文本 python 的长度，并将该值转换为浮点数，然后将其转换为字符串。
+string1=len('python')
+print(string1)
+stringConverted=str(float(string1))
+print(type(stringConverted))
+print(stringConverted)
