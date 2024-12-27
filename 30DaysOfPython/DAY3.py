@@ -95,9 +95,41 @@
 # if 'jargon' in 'I hope this course is not full of jargon':
 #     print('Yes, there is jargon in the sentence.')
 
-#找到文本 python 的长度，并将该值转换为浮点数，然后将其转换为字符串。
-string1=len('python')
-print(string1)
-stringConverted=str(float(string1))
-print(type(stringConverted))
-print(stringConverted)
+# #找到文本 python 的长度，并将该值转换为浮点数，然后将其转换为字符串。
+# string1=len('python')
+# print(string1)
+# stringConverted=str(float(string1))
+# print(type(stringConverted))
+# print(stringConverted)
+
+# #偶数可以被 2 整除，余数为零。如何使用 Python 检查一个数字是偶数还是奇数
+# num=int(input('Please input a number:'))
+# if num%2==0:
+#     print(num,'is even')
+# else:
+#     print(num,'is odd')
+
+# #检查 7 除以 3 的Floor除法是否等于 2.7 的整数转换值。
+# num1=7/3
+# num2=7//3
+# print(int(num1))
+# print(num2)
+# if int(num1)==num2:
+#     print('7 除以 3 的Floor除法等于 2.7')
+# else:
+#     print('7 除以 3 的Floor除法不等于 2.7')
+
+# # 编写一个 Python 脚本，显示以下表格
+# # 1 1 1 1 1
+# # 2 1 2 4 8
+# # 3 1 3 9 27
+# # 4 1 4 16 64
+# # 5 1 5 25 125
+# #注意for循环前面打印的内容和for循环打印的内容平级
+# tuple1=(1,2,3,4,5)
+# for i in tuple1:
+#     print()
+#     print(i, end=' ')
+#     for j in range(1,5):
+#         print(i**(j-1), end=' ')
+# print()
