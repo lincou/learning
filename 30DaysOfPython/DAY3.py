@@ -50,5 +50,4 @@
 # print('The circumference of the circle is:', 2*pi*radius)
 
 #计算y=2x-2的斜率、x截距和y截距
-y=2*x-2
 
