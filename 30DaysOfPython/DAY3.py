@@ -49,11 +49,15 @@
 # print('The area of the circle is:', pi*radius**2)
 # print('The circumference of the circle is:', 2*pi*radius)
 
+<<<<<<< HEAD
+#计算y=2x-2的斜率、x截距和y截距
+=======
 # #计算y=2x-2的斜率、x截距和y截距
 # print('y=2x-2')
 # print('The slope of the line is:', 2)
 # print('The y-intercept is:', -2)
 # print('The x-intercept is:', 0)
+>>>>>>> 5eebc17cb191e4812d2c42f834b7ae177f04dfe5
 
 # #斜率是 (m = y2-y1/x2-x1)。找到点 (2, 2) 和点 (6,10) 之间的斜率和欧几里得距离
 # point1=(2,2)
