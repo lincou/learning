@@ -26,3 +26,9 @@ data = {"name": "Alice", "age": 25}
 print(f"{data=}")
 
 #修改、添加、删除列表元素
+name.append('mike')
+print(f"{name=}")
+name.insert(2,'lincou')
+#不能写成 print(f"{name.title()}") 因为name是一个列表，不是字符串
+#如果需要给name列表中的每个字符串的首字母大写，可以使用列表推导式
+print(f"{[name.title() for name in name]}")
