@@ -24,6 +24,13 @@
 #     n+=1
 # data = {"name": "Alice", "age": 25}
 # print(f"{data=}")
+# n = 0
+# name = ['tim', 'charlie', 'susan', 'cathy']
+# while n<4:
+#     print('Hello',name[n].title())
+#     n+=1
+# data = {"name": "Alice", "age": 25}
+# print(f"{data=}")
 
 # #修改、添加、删除列表元素
 # name.append('mike')

@@ -1,5 +1,4 @@
-你好
-我是你的大爷
-你需要给我五十元吃肯德基
-什么？你不给我？
-那你完蛋了！
+In python you can do anything.
+In python you can read book.
+In python you can communciate.
+In python you can create games.
