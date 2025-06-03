@@ -1,0 +1,4 @@
+In python you can do anything.
+In python you can read book.
+In python you can communciate.
+In python you can create games.
